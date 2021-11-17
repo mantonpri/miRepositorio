@@ -17,6 +17,12 @@ public class Start {
 		 * empezando por el final y que se muestra en cada iteración Se consideran
 		 * numeros positivos y negativos
 		 */
+		extracted(numero);
+	}
+
+	private static void extracted(int numero) {
+		int i;
+		String numero_cadena;
 		numero_cadena = "";
 		for (i = 0; i < 5; i++) {
 			if (numero < 0) {
